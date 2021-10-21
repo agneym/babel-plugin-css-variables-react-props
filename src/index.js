@@ -50,7 +50,7 @@ function addAttribute({ t, path, value, label }) {
   );
 }
 
-module.exports = function (babel) {
+export default function (babel) {
   const { types: t } = babel;
 
   return {
@@ -74,4 +74,4 @@ module.exports = function (babel) {
       },
     },
   };
-};
+}
