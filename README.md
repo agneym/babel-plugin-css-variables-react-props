@@ -1,6 +1,6 @@
 # Babel Plugin - CSS Variables as React props
 
-Set CSS variables on your elements simply as React props.
+Set CSS variables on your elements as React props.
 
 <p>
   <a href="https://www.npmjs.com/package/babel-plugin-css-variables-react-props" target="_blank">
