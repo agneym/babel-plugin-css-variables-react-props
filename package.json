@@ -2,7 +2,7 @@
   "name": "babel-plugin-css-variables-react-props",
   "version": "1.0.0",
   "description": "Set CSS variables on your elements simply as React props",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
     "style": "prettier --write src/**/*.js",
