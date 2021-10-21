@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-css-variables-react-props",
   "version": "0.0.1",
-  "description": "",
+  "description": "Set CSS variables on your elements simply as React props",
   "main": "src/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -35,7 +35,7 @@
     "css variables"
   ],
   "author": "Agney <agney@outlook.in>",
-  "license": "ISC",
+  "license": "MIT",
   "jest": {
     "snapshotSerializers": [
       "<rootDir>/test/whitespaceTrimmingSerializer.js"
@@ -43,5 +43,12 @@
     "watchPathIgnorePatterns": [
       "fixtures\\/[^/]+\\/(output|error)\\.js"
     ]
-  }
+  },
+  "files": [
+    "LICENSE",
+    "lib",
+    "src",
+    ".babelrc",
+    ".gitignore"
+  ]
 }
