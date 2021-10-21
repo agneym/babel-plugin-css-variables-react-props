@@ -9,7 +9,7 @@ Set CSS variables on your elements as React props.
   <a href="https://github.com/agneym/babel-plugin-css-variables-react-props/actions">
     <img src="https://github.com/agneym/babel-plugin-css-variables-react-props/workflows/Node%20CI/badge.svg" />
   </a>
-  <a href="https://github.com/agneym/babel-plugin-css-variables-react-props/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/agneym/babel-plugin-css-variables-react-props/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/agneym/babel-plugin-css-variables-react-props" />
   </a>
   <a href="https://prettier.io">
@@ -97,3 +97,9 @@ To run tests, run the following command
 ```bash
   npm run test
 ```
+
+## Author
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/agneymenon?color=rgb%2829%2C%20155%2C%20240%29&style=for-the-badge)](https://twitter.com/agneymenon)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/agney)
