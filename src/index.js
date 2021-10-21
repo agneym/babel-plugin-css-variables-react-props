@@ -1,3 +1,5 @@
+const DEFAULT_PREFIX = "c";
+
 function findStyleIfExists({ attributes, t }) {
   const style = attributes.find((attribute) => {
     if (!t.isJSXAttribute(attribute)) {
@@ -56,13 +58,14 @@ export default function (babel) {
   return {
     inherits: require("babel-plugin-syntax-jsx"),
     visitor: {
-      JSXAttribute(path) {
+      JSXAttribute(path, state) {
+        const prefix = state.opts.prefix || DEFAULT_PREFIX;
         const jsxPropertyName = path.node.name.name;
-        if (jsxPropertyName.startsWith("c--")) {
+        if (jsxPropertyName.startsWith(`${prefix}--`)) {
           const parentOpeningPath = path.findParent((path) =>
             path.isJSXOpeningElement()
           );
-          const label = jsxPropertyName.replace("c", "");
+          const label = jsxPropertyName.replace(prefix, "");
           addAttribute({
             t,
             path: parentOpeningPath,
