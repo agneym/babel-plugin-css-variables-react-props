@@ -2,6 +2,24 @@
 
 Set CSS variables on your elements simply as React props.
 
+<p>
+  <a href="https://www.npmjs.com/package/babel-plugin-css-variables-react-props" target="_blank">
+    <img alt="npm" src="https://img.shields.io/npm/v/babel-plugin-css-variables-react-props">
+  </a>
+  <a href="https://github.com/agneym/babel-plugin-css-variables-react-props/actions">
+    <img src="https://github.com/agneym/babel-plugin-css-variables-react-props/workflows/Node%20CI/badge.svg" />
+  </a>
+  <a href="https://github.com/agneym/babel-plugin-css-variables-react-props/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/agneym/babel-plugin-css-variables-react-props" />
+  </a>
+  <a href="https://prettier.io">
+    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" />
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+  </a>
+</p>
+
 ```javascript
 function Message({ isBold }) {
   return (
